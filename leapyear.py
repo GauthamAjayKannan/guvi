@@ -1,6 +1,6 @@
 #leap
-n=int(input())
-if n%4==0:
+p=int(input())
+if p%4==0:
 	print("yes")
 else:
 	print("no")
