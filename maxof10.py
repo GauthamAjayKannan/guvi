@@ -1,3 +1,3 @@
 #maxof10
-l=input().split(" ")
+l=list(map(int,input().split(" ")))
 print(max(l))
