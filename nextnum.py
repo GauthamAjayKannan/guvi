@@ -1,2 +1,3 @@
-n=int(input())
-print(n+1)
+#next number
+p=int(input())
+print(p+1)
