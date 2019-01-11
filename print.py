@@ -1,2 +1,3 @@
-n=input()
-print(n)
+kun=input()
+print(kun)
+#45
