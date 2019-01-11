@@ -8,5 +8,5 @@ for i in s:
 		b=1
 	else:
 		pass
-print("yes" if a==1 and b==1 else "no")
+print("Yes" if a==1 and b==1 else "No")
 	
