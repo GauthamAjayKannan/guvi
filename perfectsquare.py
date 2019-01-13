@@ -8,3 +8,5 @@ while i<(n*m):
 	i=i+1
 if i==(n*m):
 	print("no")
+elif (n*m)==0:
+	print("yes")
