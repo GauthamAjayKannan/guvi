@@ -1,0 +1,2 @@
+#swap
+print(input().swapcase())
