@@ -1,4 +1,5 @@
 # your code goes here
+n=input()
 l=list(map(int,input().split(" ")))
 n={}
 n={i:l.count(i) for i in l if i not in n}
