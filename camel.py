@@ -1,0 +1,2 @@
+#camel
+print(input().title())
