@@ -7,3 +7,5 @@ for i in l:
 	if 2 in m:
 		print(m.index(2)+1)
 		break
+if 2 not in m:
+	print("unique")
