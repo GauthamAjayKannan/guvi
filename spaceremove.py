@@ -1,0 +1,2 @@
+#sentencespace
+print(input().replace(" ",""))
