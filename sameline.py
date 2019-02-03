@@ -1,3 +1,3 @@
 #sameline
 line=[input().split(" ") for i in range(3)]
-print("yes" if line[0][0]==line[1][0]==line[2][0] or line[0][1]==line[1][1]==line[2][1] else "no")
+print("yes" if line[0][0]==line[1][0]==line[2][0] or line[0][1]==line[1][1]==line[2][1] or line[0][0]==line[0][1] and line[1][0]==line[1][1] and line[2][0]==line[2][1] else "no")
