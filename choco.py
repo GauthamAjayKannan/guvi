@@ -1,5 +1,6 @@
 #choco
 n=int(input())
+s=0
 k=[[i,1] for i in list(map(int,input().split(" ")))]
 k.sort()
 for i in range(len(k)-1):
@@ -8,4 +9,6 @@ for i in range(len(k)-1):
 			k[i+1][1]=k[i+1][1]+1
 	else:
 		k[i+1][1]=k[i][1]
-print(k)
+for i in k:
+	s=s+i[1]
+print(s)
