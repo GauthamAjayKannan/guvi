@@ -8,4 +8,4 @@ for i in s:
 		if t not in r:
 		  r.append(t)
 		t=""
-print(max(r,key=len))
+print(len(max(r,key=len)))
