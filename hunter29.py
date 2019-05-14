@@ -1,8 +1,10 @@
-n=input()
-l=list(map(int,input().split(" ")))
-r=[]
-while len(l)!=1:
-	r.append(sum(l))
-	l=l[:len(l)-1]
-r.append(l[0])
-print(max(r))
+#hunter29
+x = int(input())
+l = list(map(int,input().split()))
+y =max(l)
+for i in range(x):
+	for j in range(x):
+		if (i+j)<=x:
+			if y<sum(l[j:((i+j))+1]):
+				y = sum(l[j:((i+j))+1])
+print(y)
