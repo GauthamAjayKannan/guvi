@@ -7,6 +7,7 @@ if n==1:
 	else:
 		print(0)
 else:
+  r=[]
   fin=False
   d=[(vl[i],wl[i]) for i in range(len(wl))]
   for i in range(len(vl)):
@@ -15,10 +16,8 @@ else:
 		   sum+=d[j][0]
 		   we+=d[j][1]
 		   if we==w:
-			   fin=True
-			   break
+		   	   r.append(sum)
+		   	   break
 		   elif we>w:
 			   break
-	   if fin==True:
-		    break
-  print(sum)
+  print(max(r))
