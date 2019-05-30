@@ -1,6 +1,6 @@
 s=input()
 l=list(set(s))
-le=2
+le=1
 a=0
 check=False
 while True:
